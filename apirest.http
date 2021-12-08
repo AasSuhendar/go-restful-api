@@ -18,10 +18,10 @@ Accept: application/json
 Content-Type: application/json
 
 {
-	"name": "PC"
+	"name": "hahahahahahahahahahahahahah"
 }
 
-### Post API Category
+### Update API Category
 PUT http://localhost:4000/api/categories/3 HTTP/1.1
 Accept: application/json
 Content-Type: application/json
