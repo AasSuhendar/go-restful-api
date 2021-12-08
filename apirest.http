@@ -1,0 +1,35 @@
+### Get Root
+GET http://localhost:4000 HTTP/1.1
+Accept: application/json
+
+
+### Get API Categories
+GET http://localhost:4000/api/categories HTTP/1.1
+Accept: application/json
+
+
+### Get API Categories by ID
+GET http://localhost:4000/api/categories/33 HTTP/1.1
+Accept: application/json
+
+### Post API Category
+POST http://localhost:4000/api/categories HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{
+	"name": "PC"
+}
+
+### Post API Category
+PUT http://localhost:4000/api/categories/3 HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{
+	"name": "Computer"
+}
+
+### Delete API Categories by ID
+DELETE  http://localhost:4000/api/categories/3 HTTP/1.1
+Accept: application/json
